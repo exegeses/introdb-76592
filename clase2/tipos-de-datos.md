@@ -13,21 +13,29 @@
  
 > decimales
 
-    float
-    double
-    decimal
-
+    float  
+    double  
+    decimal  
 
 ---
-
-    boolean     1 | 0
-
+    boolean     1 | 0  
+    bit     10  
 
 ## Alfauméricos  
 
-    varchar     65535
+    char        255  
+    varchar     65535  
+    tinyText    255  
+    smallText   65535  
+    mediumText  16777215  
+    Text        4294967295  
 
 ## Fechas  
 
-    date        '2025-04-28' 'yyyy-mm-dd'  
-    datetime
+    date        '2020-05-04'  yyyy-mm-dd    
+    datetime    '2022-02-03 11:13:42'  yyyy-mm-dd hh:mm:ss  
+    time        '11:13:42'  
+    year        '2023'  
+    timestamp   '1680532244'  
+
+> UNIX timestamp: El tiempo transcurrido expresado en milisegundos desde el 01-01-1970
