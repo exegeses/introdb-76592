@@ -18,7 +18,7 @@
     decimal  
 
 ---
-    boolean     1 | 0  
+    boolean     1 | 0  tinyint(1)
     bit     10  
 
 ## Alfauméricos  
